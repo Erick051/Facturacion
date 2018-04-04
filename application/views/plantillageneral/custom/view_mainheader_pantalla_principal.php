@@ -11,7 +11,7 @@
       if ( $titulo_menu != null && $titulo_menu != "" ) {
          echo '<span class="logo-lg"><b>'.$titulo_menu.'</b></span>';
       } else {
-         echo '<span class="logo-lg"><b>STO Consulting</b></span>';    
+         echo '<span class="logo-lg"><b>MENU</b></span>';    
       }
       ?>
     </a>

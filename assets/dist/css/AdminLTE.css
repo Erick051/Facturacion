@@ -25,6 +25,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
+  
 }
 /* Layout */
 .wrapper {
@@ -3231,15 +3232,19 @@ table.text-center th {
 }
 .login-logo a,
 .register-logo a {
-  color: #444;
+  color: #E4E4E4;
 }
 .login-page,
 .register-page {
-  background: #d2d6de;
+  background: #23232F;
+  background-image: url("../../imgcustom/bg-2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .login-box,
 .register-box {
-  width: 360px;
+  width: 45%;
   margin: 7% auto;
 }
 @media (max-width: 768px) {

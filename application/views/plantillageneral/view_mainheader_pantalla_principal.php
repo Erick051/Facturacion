@@ -30,14 +30,14 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="<?php echo base_url()."assets/imgcustom/user.jpg"; ?>" class="user-image" alt="User Image">
+              <img src="<?php echo base_url()."assets/imgcustom/user-2.png"; ?>" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs"><?php echo $nombre_usuario; ?></span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="<?php echo base_url()."assets/imgcustom/user.jpg"; ?>" class="img-circle" alt="User Image">
+                <img src="<?php echo base_url()."assets/imgcustom/user-2.png"; ?>" class="img-circle" alt="User Image">
 
                 <p>
                   <?php echo $nombre_usuario; ?>
