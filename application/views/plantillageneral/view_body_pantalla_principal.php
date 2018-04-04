@@ -1,0 +1,1 @@
+<body class="sidebar-mini skin-red">
