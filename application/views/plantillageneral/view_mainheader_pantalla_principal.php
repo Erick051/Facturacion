@@ -4,7 +4,8 @@
     <!-- Logo -->
     <a href="<?php echo base_url()."index.php/".URL_PANTALLA_PRINCIPAL; ?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>STO</b></span>
+      <!--<span class="logo-mini"><b>MENU</b></span>-->
+        <span class="sr-only">Toggle navigation</span>
       <!-- logo for regular state and mobile devices -->
       <?php
       // si existe titulo configurado      
