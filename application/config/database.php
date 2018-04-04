@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => '172.20.5.253',
+	'username' => 'apps',
+	'password' => 'apps',
 	'database' => 'decathlon_neon',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
