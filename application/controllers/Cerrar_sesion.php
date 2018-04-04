@@ -13,8 +13,7 @@ class Cerrar_sesion extends CI_Controller {
       //registrar_evento_bitacora($this, $this->session->userdata("id_usuario"), CIERRE_DE_SESION);
     
       // se cierra la sesion
-      $this->session->sess_destroy();      
-    
+      $this->session->sess_destroy();
       // se envia al usuario a la pantalla de inicio
       $this->session->set_flashdata('titulo', "Portal de autoservicio");
       $this->session->set_flashdata('mensaje', "Su sesión ha sido finalizada correctamente. Gracias por su visita");
